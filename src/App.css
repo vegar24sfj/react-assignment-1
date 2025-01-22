@@ -1,0 +1,24 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.static-component,
+.property-component,
+.container-component {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.container-component .children-container {
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
